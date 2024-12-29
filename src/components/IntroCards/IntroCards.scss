@@ -5,9 +5,7 @@
     padding: 15px 15px 15px 15px;
     align-items: center;
     gap: 245px;
-    border-radius: 32px;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgba(231,80,94,1) 0%, rgba(203,88,145,1) 35%, rgba(163,100,220,1) 100%);
+
 
     @media screen and (max-width: 1420px) {
         gap: 210px;
@@ -58,6 +56,22 @@
         padding: 30px 30px 30px 30px;
         flex-wrap: wrap;
         max-width: 1297px;
+        background: linear-gradient(300deg,#ffee07,#ff2b6a,#ab4bff,#5ca2ff,#df1700);
+        background-size: 400% 400%;
+        animation: gradient-animation 30s ease infinite;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 40px;
+
+        h1 {
+            font-family: "Roboto", sans-serif;
+            font-size: 50px;
+            line-height: 2;
+            letter-spacing: -0.02em;
+            max-width: 1500px;
+            text-align: center;
+
         @media screen and (max-width: 1420px) {
             gap: 210px;
         }
@@ -102,12 +116,67 @@
             gap: 30px;
         }
     }
+    h2 {
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        max-width: 1500px;
+        text-align: center;
+
+    @media screen and (max-width: 1420px) {
+        gap: 210px;
+    }
+
+    @media screen and (max-width: 1380px) {
+        gap: 130px;
+    }
+
+    @media screen and (max-width: 1310px) {
+        gap: 90px;
+    }
+
+    @media screen and (max-width: 1260px) {
+        gap: 90px;
+    }
+    
+    @media screen and (max-width: 1180px) {
+        padding: 40px 60px 45px 45px;
+    }
+
+    @media screen and (max-width: 1020px) {
+        padding: 40px 45px 45px 45px;
+        gap: 60px;
+        margin-bottom: 20px;
+    }
+
+    @media screen and (max-width: 770px) {
+        flex-direction: column;
+        padding: 65px 90px 65px 66px;
+    }
+
+    @media screen and (max-width: 710px) {
+        padding: 50px 60px 50px 55px;
+    }
+
+    @media screen and (max-width: 615px) {
+        padding: 35px 50px 35px 30px;
+    }
+
+    @media screen and (max-width: 400px) {
+        padding: 30px 35px 30px 35px;
+        gap: 30px;
+    }
+}
+}
 
     .right-intro {
         display: flex;
         flex-wrap: wrap;
         max-width: 678px;
         gap: 18px;
+
+
 
         @media screen and (max-width: 1230px) {
             max-width: 450px;
