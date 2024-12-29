@@ -6,6 +6,7 @@ import './AboutMe.scss';
 import Showcase from '../Showcase/Showcase';
 import EndCards from '../EndCards/EndCards';
 
+
 export default function AboutMe () {
   const [state, dispatch] = useContext(store);
 

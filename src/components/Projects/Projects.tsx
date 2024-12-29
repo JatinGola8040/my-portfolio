@@ -96,7 +96,7 @@ export default function Projects() {
       </div>
 
       <a
-        href="https://github.com/gianlucajahn"
+        href="https://github.com/JatinGola8040"
         target="_blank"
         className="more"
         onMouseDown={playAudio}
